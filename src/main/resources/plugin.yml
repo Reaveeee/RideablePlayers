@@ -1,0 +1,11 @@
+name: RideablePlayers
+version: '${project.version}'
+main: de.reave.rideableplayers.RideablePlayers
+api-version: '1.21'
+
+commands:
+  rideplayer:
+    description: Allows you to ride a player :3
+  throwoffplayer:
+    description: Throws of the player riding you
+    aliases: top

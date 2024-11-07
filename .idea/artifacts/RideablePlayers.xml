@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RideablePlayers">
+    <output-path>$PROJECT_DIR$/testServer/plugins</output-path>
+    <root id="archive" name="RideablePlayers.jar">
+      <element id="module-output" name="RideablePlayers" />
+    </root>
+  </artifact>
+</component>
