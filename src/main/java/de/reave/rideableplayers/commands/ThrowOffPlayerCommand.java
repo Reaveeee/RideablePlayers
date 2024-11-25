@@ -28,7 +28,7 @@ public class ThrowOffPlayerCommand implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        player.removePassenger(player.getPassenger());
+        player.removePassenger(player.getPassengers().get(0));
 
         return false;
     }

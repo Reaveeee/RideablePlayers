@@ -4,6 +4,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
+import org.bukkit.event.player.PlayerMoveEvent;
 
 public class RidePlayerEvents implements Listener {
     @EventHandler
@@ -14,6 +15,6 @@ public class RidePlayerEvents implements Listener {
         Player player = event.getPlayer();
         Player target = (Player) event.getRightClicked();
 
-        target.setPassenger(player);
+        target.addPassenger(player);
     }
 }
